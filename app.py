@@ -81,7 +81,7 @@ st.markdown("""
 # ── Load & cache data ────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_excel("FunDivEUROPE_alldata_exploratory-platform_2023 copy.xlsx")
+    df = pd.read_excel("FunDivEUROPE_alldata_exploratory-platform_2023.xlsx")
     df = df.rename(columns={
         "soil_c_ff_10":  "soil_C_ff_10",
         "soil_cn_ff_10": "soil_CN_ff_10",
